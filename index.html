@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#form-container">Contact us</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+      <div class="bg-primary text-white p-5 text-center">
+        <h1 class="fw-normal display-3">Welcome to My Portfolio</h1>
+        <p class="fs-3 fw-lighter">I showcase my projects and skills here.</p>
+      </div>
+      <section class="container pt-5">
+        <h1 class="text-center">About Me</h1>
+        <div class="row pt-3">
+        <img class="col-6" src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="img coder" />
+        <p class="col-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad voluptas praesentium, recusandae nemo nulla officia sapiente facere quam quae, animi quo minus maiores vitae quos officiis perferendis dignissimos ullam unde ipsum veniam sit totam quibusdam ea. Aliquid quia at blanditiis optio, sit doloribus. Facere, hic. Eligendi culpa sunt dolor saepe nisi quas ab, beatae ea magni, asperiores dignissimos. Vero placeat minima quia vitae libero voluptate, fugit recusandae non laborum earum rerum ipsum nostrum autem magni dolorem distinctio ratione dignissimos odit? Quasi corporis debitis voluptate, nostrum expedita illum eos voluptas eius cum omnis est ut repellendus maxime illo obcaecati similique ea.
+        </p>
+        </div>
+      </section>
+      <section class="bg-light" id="portfolio">
+        <div class="container">
+          <h2 class="text-center pt-5 pb-3">Portfolio</h2>
+          <div class="row py-5">
+            <div class="col-sm-12 mt-4 col-md-4">
+              <div class="card">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNvZGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="project1" class="card-img-top" />
+              <div class="card-body">
+              <h2>Project 1</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button class="btn bg-primary">Learn More</button>
+            </div>
+            </div>
+          </div>
+          <div class="col-sm-12 mt-4 col-md-4">
+            <div class="card">
+            <img src="https://media.istockphoto.com/id/1469706271/photo/code-asian-man-and-reflection-in-glasses-focus-and-programming-for-cyber-security-hacking-and.webp?s=1024x1024&w=is&k=20&c=BN93XQd6RhG4lHP7-OTaY3TSDunc_8s8OzzYWEUFPuo=" alt="project2" class="card-img-top" />
+            <div class="card-body">
+            <h2>Project 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button class="btn bg-primary">Learn More</button>
+          </div>
+          </div>
+        </div> 
+        <div class="col-sm-12 mt-4 col-md-4">
+          <div class="card">
+          <img src="https://images.unsplash.com/photo-1607705703571-c5a8695f18f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvZGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="project3" class="card-img-top" />
+          <div class="card-body">
+          <h2>Project 3</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="btn bg-primary">Learn More</button>
+        </div>
+        </div>
+      </div> 
+          </div>
+        </div>
+      </section>
+      <section id="form-container" class="container py-5">
+        <h1 class="text-center">Contact</h1>
+        <div class="row">
+        <div class="col-sm-12 mt-4 col-md-6 mx-auto d-flex flex-column align-items-center">
+          <label for="name" class="d-block w-100 text-start mt-3 form-label">Name</label>
+          <input type="text" id="name" class="form-control" placeholder="Shrikant Tathe">
+          <label for="email" class="d-block w-100 text-start mt-3 form-label">Email</label>
+          <input type="email" id="email" class="form-control" placeholder="sptathe@gmail.com">
+          <label for="message" class="d-block w-100 text-start mt-3 form-label">Message</label>
+          <textarea id="message" class="form-control" placeholder="write your message here...." rows="5"></textarea>
+         <button class="btn btn-primary w-75 btn-lg mt-4">Submit</button>
+        </div>
+      </div>
+      </section>
+      <footer class="bg-dark text-white text-center py-3">
+          @ 2023 My Portfolio. All rights reserved.
+      </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</html>
